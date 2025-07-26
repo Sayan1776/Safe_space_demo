@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeSpace – Silent AI Safety Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">SafeSpace</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#why">Why SafeSpace</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#demo">Try It</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>SafeSpace</h1>
+        <h2>Silent AI Safety Assistant</h2>
+        <p class="tagline">Your discreet companion for safety in any situation</p>
+        <p class="description">
+          SafeSpace is designed for everyone who values personal safety - students walking home late at night, 
+          women in uncomfortable situations, elderly individuals living alone, and travelers in unfamiliar places. 
+          Our AI-powered assistant silently monitors for signs of distress and provides help when you need it most.
+        </p>
+        <a href="#demo" class="cta-button">Try SafeSpace Now</a>
+      </div>
+      <div class="hero-image">
+        <img src="/placeholder.svg?height=400&width=400" alt="SafeSpace App Illustration">
+      </div>
+    </div>
+  </section>
+
+  <section id="why" class="why-section">
+    <div class="container">
+      <h2>Why SafeSpace?</h2>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="icon">🧠</div>
+          <h3>Advanced AI</h3>
+          <p>Powered by state-of-the-art AI models that understand context and nuance in potentially dangerous situations.</p>
+        </div>
+        <div class="why-card">
+          <div class="icon">👁️</div>
+          <p>Multimodal Support</p>
+          <p>Detects distress through text, vision, and audio, providing comprehensive protection across different scenarios.</p>
+        </div>
+        <div class="why-card">
+          <div class="icon">🔒</div>
+          <h3>Privacy-Focused</h3>
+          <p>Your data stays on your device whenever possible, with strict privacy controls for sensitive information.</p>
+        </div>
+        <div class="why-card">
+          <div class="icon">⚡</div>
+          <h3>Fast Response</h3>
+          <p>Immediate analysis and action when seconds matter most, without requiring obvious interaction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features-section">
+    <div class="container">
+      <h2>Features</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">💬</div>
+          <h3>Text-based Panic Detection</h3>
+          <p>Analyzes messages for signs of distress, even when coded or subtle. Works with SMS, messaging apps, and our built-in interface.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👀</div>
+          <h3>Vision-based Recognition</h3>
+          <p>Detects distress gestures and facial expressions through your device's camera, providing help even when you can't speak.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔊</div>
+          <h3>Audio Panic Detection</h3>
+          <p>Listens for predefined keywords or tones indicating distress, activating assistance without drawing attention.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3>GPS & Messaging</h3>
+          <p>Automatically shares your location with trusted contacts and emergency services when a threat is detected.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="demo" class="demo-section">
+    <div class="container">
+      <h2>Try SafeSpace</h2>
+      <p>Type a message below to test our panic detection system</p>
+      
+      <div class="demo-container">
+        <form id="panic-form">
+          <input type="text" id="message-input" placeholder="Type a message like 'please help'..." required>
+          <button type="submit">Check Panic</button>
+        </form>
+        
+        <div id="result" class="result-hidden">
+          <div id="result-icon"></div>
+          <div id="result-message"></div>
+        </div>
+        
+        <div id="loading" class="loading-hidden">
+          <div class="spinner"></div>
+          <p>Analyzing message...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>SafeSpace</h3>
+          <p>Silent AI Safety Assistant</p>
+        </div>
+        <div class="footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#why">Why SafeSpace</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#demo">Try It</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>Email: info@safespace-ai.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SafeSpace. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
